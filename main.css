@@ -1,6 +1,6 @@
 body {
     background-color:#fff;
-    color:#000;
+    color:#333;
     font-family: 'Untitled Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-weight:300;
@@ -9,12 +9,12 @@ body {
 
 a:link, a:active, a:visited {
     text-decoration:none;
-    color:#000;
+    color:inherit;
 }
 
 #container {
-    width:98%;
-    margin:auto;
+    width:80%;
+    margin:2em auto;
 }
 
 #droite {
@@ -22,7 +22,7 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-    opacity:.9;
+    opacity:.25;
 }
 
 a.icon:link {
@@ -31,7 +31,7 @@ a.icon:link {
 }
 
 .credit {
-    border-top:.01em solid #ccc;
+    border-top:.01em solid #ddd;
     padding:.2em 0em;
     display:block   ;
 }
@@ -53,7 +53,15 @@ h1 {
     font-size:.35em;
     font-weight:700;
     text-transform:uppercase;
-    margin:4em 0 1em;
+    margin:12em 0 1em;
+}
+
+h2 {
+    font-family:'Untitled Sans', sans-serif;
+    font-size:.5em;
+    font-weight:400;
+    text-transform:;
+    margin:2em 0;
 }
 
 .serf {
