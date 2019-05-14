@@ -1,0 +1,195 @@
+body {
+    background-color:#fff;
+    color:#333;
+    font-family: 'Muli', 'Futura', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height:1.5;
+}
+
+a:link, a:active, a:visited {
+    text-decoration:none;
+    color:#bbb;
+}
+
+#container {
+    width:80%;
+    margin:2em auto;
+}
+
+a:hover {
+    color:lightsteelblue;
+}
+
+a.icon:link {
+    font-size:.7em;
+    margin:0 .3em 0 0;
+}
+
+h1 {
+    font-family:'Radley', serif;
+    font-size:1.75em;
+    text-align:center;
+    margin:0;
+    line-height:1;
+}
+
+h2 {
+    font-family:'Muli', sans-serif;
+    font-size:.9em;
+    letter-spacing:.25em;
+    font-weight:800;
+    text-transform:uppercase;
+    text-align: center;
+    margin:3em 0 .5em;
+}
+
+h3 {
+    font-family:'Muli', sans-serif;
+    font-size:.75em;
+    font-weight:400;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-family:'Radley', serif;
+    font-size:1em;
+    font-style:italic;
+    text-align:center;
+    margin:0;
+    line-height:1;
+}
+
+#tete {
+    text-align: center;
+    margin:3em auto;
+}
+
+#nav {
+    width:90%;
+    text-align: center;
+    margin:2em auto 4em;
+    color:#333;
+}
+
+a.nav, a.nav:visited {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size:1.5em;
+    width:24%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Radley', serif;
+    margin:0;
+}
+
+a.nav:hover, a.nav:active {
+    color:lightsteelblue;
+}
+
+.ici {
+    color:lightsteelblue;
+    background-color: #fff;
+    border: none;
+    font-size:1.5em;
+    width:24%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Radley', serif;
+    margin:0;
+    cursor:pointer;
+}
+
+.lilbud {
+    width:80%;
+    margin:3em auto;
+    clear:both;
+    display:block;
+}
+
+.bigboi {
+    width:100%;
+    margin:2em auto 6em;
+    clear:both;
+    display:block;
+}
+
+.tobygoofy {
+    width:70%;
+    margin:auto;
+}
+
+.spacer {
+    width:100%;
+    height:3em;
+    clear:both;
+}
+
+.gauche {
+    float:left;
+    width:49%;
+    clear:left;
+    margin:1% 0;
+}
+
+.droite {
+    float:right;
+    width:49%;
+    clear:right;
+    margin:1% 0;
+}
+
+#headshot {
+    width:70%;
+    display:block;
+    margin:3em auto;
+    text-align:center;
+}
+
+img.headshot {
+    width:45%;
+    margin:1%;
+}
+
+img.projet {
+    width:100%;
+}
+
+.uh {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+    bottom:0;
+    right:0;
+  height: 98.25%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightsteelblue;
+}
+
+.uh:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i|Radley:400,400i');
