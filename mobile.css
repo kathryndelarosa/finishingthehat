@@ -3,27 +3,59 @@ body {
     line-height: 1.6;
 }
 
+#container {
+    width:100%;
+    margin:2em auto 4em;
+}
+
 .bigboi, .lilbud {
-    margin:0;
+    margin:0 auto;
     width:95%;
 }
 
 .tobygoofy {
     width:100%;
+    margin:0 auto;
 }
 
-h1, h2 {
+h1 {
+    font-size:1.5em;
+}
+
+h2 {
+    font-size:.8em;
+}
+
+h3 {
     font-size:.6em;
 }
 
-a.nav, .ici {
-    display:block;
+#nav {
+    margin:3em auto;
     text-align:center;
-    margin:.5em 0;
-    width:auto;
+}
+
+a.nav, .ici {
+    font-size:1.5em;
 }
 
 .gauche, .droite {
     width:100%;
     display:block;
+}
+
+#headshot {
+    width:100%;
+    margin:3em auto;
+}
+
+img.headshot {
+    display:block;
+    text-align:center;
+    margin:.5em 0;
+    width:100%;
+}
+
+#tete {
+    display:none;
 }
