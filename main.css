@@ -11,13 +11,12 @@ body {
 
 a:link, a:active, a:visited {
     color:#000;
-    border-bottom:.02em solid #ccc;
+    border-bottom:.02em solid #feceee;
     text-decoration: none;
 }
 
 a:hover {
-    color:#ccc;
-    border-bottom:0;
+    color:#ff99dd;
 }
 
 a.nav:link, a.nav:active, a.nav:visited {
@@ -32,7 +31,7 @@ a.nav:link, a.nav:active, a.nav:visited {
     padding:1em;
     display:inline-block;
     margin:.5em 0;
-    background-image: linear-gradient(to bottom right, #D74388, #FED880);
+    background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
 }
 
 a.nav:hover {
