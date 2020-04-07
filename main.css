@@ -1,17 +1,31 @@
 body {
     background-color:#fff;
     color:#000;
-    font-family: 'Public Sans', 'Futura', sans-serif;
-    font-size: 24px;
-    font-weight:200;
-    line-height:;
+    font-family: 'Baskervville', serif;
+    font-size: 28px;
+    line-height:1.4;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Public+Sans:200,200i,600i,700,700i&display=swap');
+@font-face {
+    font-family: 'Baskerville';
+    src: url('Baskerville.woff2') format('woff2'),
+        url('Baskerville.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('Baskerville-Italic.woff2') format('woff2'),
+        url('Baskerville-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 
 a:link, a:active, a:visited {
-    color:#000;
-    border-bottom:.02em solid #feceee;
+    color:#fff;
     text-decoration: none;
 }
 
@@ -19,41 +33,19 @@ a:hover {
     color:#ff99dd;
 }
 
-a.nav:link, a.nav:active, a.nav:visited {
-    color:#000;
-    text-decoration: none;
-    font-weight:700;
-    font-style:italic;
-    letter-spacing:.1em;
-    text-transform:lowercase;
-    font-size:.75em;
-    border:.1em solid black;
-    padding:1em;
-    display:inline-block;
-    margin:.5em 0;
-    background-image: linear-gradient(to bottom right, #FF99DD, #FED880);
-}
-
-a.nav:hover {
-    color:#fff;
-}
-
-
 #container {
-    width:90%;
+    width:80%;
     margin:auto;
 }
 
 #kaliwa {
-    width:50%;
+    width:30%;
     float:left;
-    margin:3em 0;
 }
 
 #kanan {
-    width:40%;
+    width:70%;
     float:right;
-    margin:6em 0;    
 }
 
 h1 {
