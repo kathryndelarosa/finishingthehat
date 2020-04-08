@@ -1,28 +1,20 @@
 body {
-    background-color:#fff;
+    background-color:#FADCCF;
     color:#000;
     font-family: 'Baskervville', serif;
-    font-size: 14px;
+    font-size: 13px;
     line-height:1.4;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
 @font-face {
-    font-family: 'Baskerville';
-    src: url('Baskerville.woff2') format('woff2'),
-        url('Baskerville.woff') format('woff');
-    font-weight: normal;
+    font-family: 'FK Grotesk';
+    src: url('FKGrotesk-Bold.woff2') format('woff2'),
+        url('FKGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Baskerville';
-    src: url('Baskerville-Italic.woff2') format('woff2'),
-        url('Baskerville-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 
 a:link, a:active, a:visited {
     color:#000;
@@ -30,16 +22,26 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-    color:#ff99dd;
+    text-decoration:line-through;
+}
+
+h1 {
+    font-size:.9em;
+    line-height: 1.2;
+    font-family:'FK Grotesk';
+    text-transform:uppercase;
+    font-weight:700;
+    margin:3em 0 0;
+    letter-spacing: .05em;
 }
 
 #container {
     width:80%;
-    margin:auto;
+    margin:9em auto;
 }
 
 #kaliwa {
-    width:30%;
+    width:25%;
     float:left;
 }
 
@@ -48,21 +50,79 @@ a:hover {
     float:right;
 }
 
-h1 {
-    font-size:1em;
-    line-height: 1.2;
-    font-family:'Founders Grotesk';
-    text-transform:uppercase;
-}
-
-h2 {
-    font-style: italic;
-    font-size:1.2em;
-    margin:1.5em 0 .5em;
-    letter-spacing:.07em;
-    font-weight: 700;
+#mukha {
+    margin:3em 0;
 }
 
 .bio {
     font-size: 2em;    
+}
+
+#tatlo {
+    width:100%;
+    margin:4em 0;
+}
+
+#anak1 {
+    width:40%;
+    float:left;
+}
+
+#anak2 {
+    width:25%;
+    float:left;
+    margin:0 5%;
+}
+
+#anak3 {
+    width:25%;
+    float:left;
+}
+
+#palabas {
+    width:70%;
+    margin:3em auto;
+}
+
+#col1 {
+    width:45%;
+    float:left;
+    margin:0 5% 0 0;
+}
+
+#col2 {
+    width:45%;
+    float:right;
+    margin:0 0 0 5%;
+}
+
+#ulo {
+    overflow: hidden;
+    width:100%;
+    position:absolute;
+    background-color:#FADCCF;
+    border-bottom:.02em solid #000;
+    top:0;
+    left:0;
+    letter-spacing: .05em;
+}
+
+#ulo a {
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    font-weight:700;
+    text-transform:uppercase;
+    font-family:'FK Grotesk';
+    display:inline-block;
+    margin:2em;
+}
+
+#ulo a:hover {
+    text-decoration:line-through;
+}
+
+#cup {
+    width:80%;
+    margin:auto;
 }
