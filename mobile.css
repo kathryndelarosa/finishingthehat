@@ -4,6 +4,7 @@ body {
 
 #container {
     margin:3em auto;
+    width:96%;
 }
 
 td.un, td.deux, td.trois {
