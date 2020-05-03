@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-    margin:7em auto;
+    margin:3em auto;
 }
 
 td.un, td.deux, td.trois {
@@ -11,4 +11,16 @@ td.un, td.deux, td.trois {
     width:100%;
     padding:0;
     margin:2em 0;
+}
+
+#contacte {
+    width:100%;
+}
+
+#laki {
+    font-size:2.5em;
+}
+
+.wee {
+    font-size:.75em;
 }

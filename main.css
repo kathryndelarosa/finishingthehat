@@ -66,21 +66,21 @@ a:hover {
     font-size:3em;
 }
 
-#liit, flip {
+#liit {
+    display: block;
     margin:3em auto;
     font-size:1.5em;
 }
 
-#liit {
-    display:none;
-}
-
-.big {
-    font-size:3em;
+#contacte {
+    display: block;
+    margin:3em 0;
+    font-size:1.5em;
+    width:50%;
 }
 
 .wee {
-    font-size:1.5em;
+    font-size:.5em;
 }
 
 td {
@@ -101,39 +101,3 @@ td.trois {
     padding:0 0 0 1em;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-.btn {
-  background-color:#a748c3;
-  border:.1em solid #fff;
-  border-radius:2em;
-}
-
-.btn:hover {
-  background-color:#fff;
-  color:#a748c3;
-  border:.1em solid #a748c3;
-}
-
-.collapse {
-  display: block;
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .5s cubic-bezier(0, 1, 0, 1);; 
-
-  &.show {
-    max-height: 99em;
-    transition: max-height .5s ease-in-out;
-  }
-}
-
-.block {
-  margin:3em 0;
-  padding: 0;
-  
-  &__content {
-    height: 100%;
-  }
-}
