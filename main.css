@@ -1,138 +1,139 @@
 body {
-    background-color:#FADCCF;
-    color:#000;
-    font-family: 'Baskervville', serif;
-    font-size: 13px;
-    line-height:1.4;
+    background-color:#fff;
+    color:#a748c3;
+    font-family: 'Sabon LT Std', serif;
+    font-size: 16px;
+    line-height:1.2;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
-
 @font-face {
-    font-family: 'FK Grotesk';
-    src: url('FKGrotesk-Bold.woff2') format('woff2'),
-        url('FKGrotesk-Bold.woff') format('woff');
+    font-family: 'Sabon LT Std';
+    src: url('SabonLTStd-Bold.woff2') format('woff2'),
+        url('SabonLTStd-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Sabon LT Std';
+    src: url('SabonLTStd-BoldItalic.woff2') format('woff2'),
+        url('SabonLTStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sabon LT Std';
+    src: url('SabonLTStd-Roman.woff2') format('woff2'),
+        url('SabonLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sabon LT Std';
+    src: url('SabonLTStd-Italic.woff2') format('woff2'),
+        url('SabonLTStd-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
 a:link, a:active, a:visited {
-    color:#000;
+   color:#a748c3;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration:line-through;
-}
-
-h1 {
-    font-size:.9em;
-    line-height: 1.2;
-    font-family:'FK Grotesk';
-    text-transform:uppercase;
-    font-weight:700;
-    margin:2em 0 0;
-    letter-spacing: .05em;
-}
-
-#palabas h1 {
-    font-size:1em;
-    line-height: 1.2;
-    font-family:'FK Grotesk';
-    text-transform:uppercase;
-    font-weight:700;
-    margin:3em 0 1.5em;
-    letter-spacing: .05em;
+    color:#000;
+    border-bottom:.1em solid #a748c3;
 }
 
 #container {
-    width:80%;
-    margin:9em auto;
-}
-
-#kaliwa {
-    width:25%;
-    float:left;
-}
-
-#kanan {
-    width:70%;
-    float:right;
-}
-
-#mukha {
-    margin:3em 0;
-}
-
-.bio {
-    font-size: 2em;    
-}
-
-#tatlo {
-    width:100%;
-    margin:4em 0;
-}
-
-#anak1 {
-    width:40%;
-    float:left;
-}
-
-#anak2 {
-    width:25%;
-    float:left;
-    margin:0 5%;
-}
-
-#anak3 {
-    width:25%;
-    float:left;
-}
-
-#palabas {
-    width:70%;
-    margin:3em auto;
-}
-
-#col1 {
-    width:45%;
-    float:left;
-    margin:0 5% 0 0;
-}
-
-#col2 {
-    width:45%;
-    float:right;
-    margin:0 0 0 5%;
+    width:90%;
+    margin:auto;
 }
 
 #ulo {
-    overflow: hidden;
-    width:100%;
-    position:absolute;
-    background-color:#FADCCF;
-    border-bottom:.02em solid #000;
-    top:0;
-    left:0;
-    letter-spacing: .05em;
-}
-
-#ulo a {
-    float: right;
+    display:block;
     text-align: right;
-    text-decoration: none;
-    font-weight:700;
+    margin:3em 0;
     text-transform:uppercase;
-    font-family:'FK Grotesk';
-    display:inline-block;
-    margin:2em;
 }
 
-#ulo a:hover {
-    text-decoration:line-through;
+#laki {
+    display:block;
+    margin:2em 0;
+    font-size:3em;
 }
 
-#cup {
-    width:80%;
-    margin:auto;
+#liit, flip {
+    margin:3em auto;
+    font-size:1.5em;
+}
+
+#liit {
+    display:none;
+}
+
+.big {
+    font-size:3em;
+}
+
+.wee {
+    font-size:1.5em;
+}
+
+td {
+    vertical-align: top;
+}
+
+td.un {
+    width:35%;
+}
+
+td.deux {
+    width:20%;
+    padding:0 1em;
+}
+
+td.trois {
+    width:25%;
+    padding:0 0 0 1em;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.btn {
+  background-color:#a748c3;
+  border:.1em solid #fff;
+  border-radius:2em;
+}
+
+.btn:hover {
+  background-color:#fff;
+  color:#a748c3;
+  border:.1em solid #a748c3;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);; 
+
+  &.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
+  }
+}
+
+.block {
+  margin:3em 0;
+  padding: 0;
+  
+  &__content {
+    height: 100%;
+  }
 }

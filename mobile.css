@@ -1,75 +1,14 @@
 body {
-    font-size:16px;
+    font-size:13px;
 }
 
 #container {
-    width:96%;
-    margin:7em 0;
+    margin:7em auto;
 }
 
-#kaliwa {
-    width:100%;
+td.un, td.deux, td.trois {
     display:block;
-}
-
-#kanan {
     width:100%;
-    display:block;
-}
-
-a.nav:link {
-    display:auto;
-}
-
-.bio {
-    font-size: 1.5em;    
-}
-
-#tatlo {
-    margin:0;
-}
-
-#anak1 {
-    width:100%;
-    display:block;
-}
-
-#anak2 {
-    width:100%;
-    display:block;
-    margin:0;
-}
-
-#anak3 {
-    width:100%;
-    display:block;
-}
-
-#palabas {
-    width:100%;
-}
-
-#col1 {
-    width:100%;
-    display:block;
-    margin:0;
-}
-
-#col2 {
-    width:100%;
-    display:block;
-    margin:0;
-}
-
-#cup {
-    width:86%;
-}
-
-#ulo {
-    font-size:.8em;
-    position:fixed;
-}
-
-#ulo a {
-    margin:2em 1em;
+    padding:0;
+    margin:2em 0;
 }
