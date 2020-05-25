@@ -1,103 +1,111 @@
 body {
-    background-color:#fff;
-    color:#a748c3;
-    font-family: 'Sabon LT Std', serif;
-    font-size: 16px;
+    background-color:#fbe4e1;
+    color:#000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
     line-height:1.2;
 }
 
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Bold.woff2') format('woff2'),
-        url('SabonLTStd-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-BoldItalic.woff2') format('woff2'),
-        url('SabonLTStd-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Roman.woff2') format('woff2'),
-        url('SabonLTStd-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sabon LT Std';
-    src: url('SabonLTStd-Italic.woff2') format('woff2'),
-        url('SabonLTStd-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
 a:link, a:active, a:visited {
-   color:#a748c3;
+    color:#000;
     text-decoration: none;
+    font-family:'Cormorant', serif;
+    border-bottom:.02em solid #000;
 }
 
 a:hover {
     color:#000;
-    border-bottom:.1em solid #a748c3;
+}
+
+.birb {
+    font-family:'Cormorant', serif;
+    font-size:1.25em;
+}
+
+.wee {
+    font-size: .6em;
+    line-height: 1.5;
 }
 
 #container {
-    width:90%;
+    width:100%;
     margin:auto;
 }
 
 #ulo {
     display:block;
-    text-align: right;
-    margin:3em 0;
+    text-align: center;
+    margin:5em 0;
     text-transform:uppercase;
+    font-size:.75em;
 }
 
-#laki {
+.laki {
     display:block;
-    margin:2em 0;
-    font-size:3em;
+    margin:1em auto;
+    font-size:2em;
+    width:75%;
 }
 
-#liit {
-    display: block;
-    margin:3em auto;
+#map {
+    position:fixed;
+    z-index: 999;
+    top:1em;
+    right:1em;
+    font-size:2em;
+    text-align:right;
     font-size:1.5em;
 }
 
-#contacte {
-    display: block;
-    margin:3em 0;
-    font-size:1.5em;
-    width:50%;
+#map a {
+    font-family:'Space Grotesk', serif;
+    border-bottom:none;
+    display:block;
 }
 
-.wee {
-    font-size:.5em;
+#map a:hover {
+    text-decoration:underline;
+}
+
+.liit {
+    display:block;
+    margin:1em auto;
+    font-size:1em;
+    width:75%;
+}
+
+h1 {
+    font-size:.75em;
+    font-weight:700;
+    margin: 3em 0 1.5em;
+}
+
+.mid {
+    font-size:1.3em;
+}
+
+table {
+    width:100%;
 }
 
 td {
+    width:100%;
     vertical-align: top;
+    text-align:center;
 }
 
-td.un {
-    width:35%;
+table.aboot {
+    width:100%;
+    text-align:left;
 }
 
-td.deux {
+td.aboot1 {
+    width:50%;
+    text-align:left;
+    padding-right: 3em;
+}
+
+td.aboot2 {
     width:20%;
-    padding:0 1em;
+    text-align:left;
 }
-
-td.trois {
-    width:25%;
-    padding:0 0 0 1em;
-}
-

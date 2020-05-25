@@ -7,11 +7,15 @@ body {
     width:96%;
 }
 
-td.un, td.deux, td.trois {
+table, tr {
     display:block;
     width:100%;
-    padding:0;
-    margin:2em 0;
+}
+
+td {
+    width:100%;
+    display:block;
+    background-color: pink;
 }
 
 #contacte {
