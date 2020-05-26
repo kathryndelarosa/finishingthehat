@@ -23,14 +23,19 @@ a:hover {
     font-size:1.25em;
 }
 
+.bird {
+    font-family:'Cormorant', serif;
+    font-size:1.5em;
+}
+
 .wee {
     font-size: .6em;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 #container {
     width:75%;
-    margin:6em auto;
+    margin:7em auto;
 }
 
 #ulo {
@@ -75,8 +80,15 @@ a:hover {
     width:100%;
 }
 
+.bebe {
+    display:block;
+    margin:1em auto;
+    font-size:1em;
+    width:80%;
+}
+
 h1 {
-    font-size:.75em;
+    font-size:.6em;
     font-weight:700;
     margin: 3em 0 1.5em;
 }
