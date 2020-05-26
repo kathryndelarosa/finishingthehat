@@ -12,14 +12,9 @@ table, tr {
     width:100%;
 }
 
-td {
+td.contact {
     width:100%;
     display:block;
-    background-color: pink;
-}
-
-#contacte {
-    width:100%;
 }
 
 #laki {
@@ -28,4 +23,9 @@ td {
 
 .wee {
     font-size:.75em;
+}
+
+td.aboot1, td.aboot2 {
+    width:100%;
+    padding:0;
 }

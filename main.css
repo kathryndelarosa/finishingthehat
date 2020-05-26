@@ -15,6 +15,7 @@ a:link, a:active, a:visited {
 
 a:hover {
     color:#000;
+    border-bottom:none;
 }
 
 .birb {
@@ -28,8 +29,8 @@ a:hover {
 }
 
 #container {
-    width:100%;
-    margin:auto;
+    width:75%;
+    margin:6em auto;
 }
 
 #ulo {
@@ -44,7 +45,7 @@ a:hover {
     display:block;
     margin:1em auto;
     font-size:2em;
-    width:75%;
+    width:100%;
 }
 
 #map {
@@ -71,7 +72,7 @@ a:hover {
     display:block;
     margin:1em auto;
     font-size:1em;
-    width:75%;
+    width:100%;
 }
 
 h1 {
@@ -88,8 +89,8 @@ table {
     width:100%;
 }
 
-td {
-    width:100%;
+td.contact {
+    width:50%;
     vertical-align: top;
     text-align:center;
 }
@@ -97,15 +98,18 @@ td {
 table.aboot {
     width:100%;
     text-align:left;
+    vertical-align: top;
 }
 
 td.aboot1 {
     width:50%;
     text-align:left;
     padding-right: 3em;
+    vertical-align: top;
 }
 
 td.aboot2 {
     width:20%;
     text-align:left;
+    vertical-align: top;
 }
