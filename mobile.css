@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-    margin:3em auto;
+    margin:6em auto;
     width:96%;
 }
 
@@ -43,7 +43,6 @@ h1 {
 .bebe {
     font-size:2em;
     width:100%;
-    margin:3em 0;
 }
 
 #map {
