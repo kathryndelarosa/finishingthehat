@@ -8,8 +8,8 @@ body {
 }
 
 table, tr {
-    display:block;
     width:100%;
+    margin:auto;
 }
 
 td.contact {
@@ -17,15 +17,62 @@ td.contact {
     display:block;
 }
 
-#laki {
+.laki {
     font-size:2.5em;
 }
 
+.liit {
+    width:100%;
+    font-size:1.3em;
+}
+
 .wee {
-    font-size:.75em;
+    font-size:1em;
 }
 
 td.aboot1, td.aboot2 {
     width:100%;
     padding:0;
+    display:block;
+}
+
+h1 {
+    font-size:1em;
+}
+
+.bebe {
+    font-size:2em;
+    width:100%;
+    margin:3em 0;
+}
+
+#map {
+    display:none;
+}
+
+.topnav {
+    display:block;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    border:none;
+    font-family:'Space Grotesk', sans-serif;
+    color:#000;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-image: none;
+    border:none;
+    opacity:1;
+}
+
+.topnav a.active {
+    background-image: none;
+    border:none;
+}
+
+.topnav a.active:hover {
+    opacity:1;
 }
