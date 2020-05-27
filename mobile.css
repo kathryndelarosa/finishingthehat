@@ -76,3 +76,8 @@ h1 {
 .topnav a.active:hover {
     opacity:1;
 }
+
+.topnav a.icon {
+    margin:1em;
+    display:block;
+}

@@ -158,11 +158,11 @@ td.aboot2 {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a {display: none;padding:1em;}
+    .topnav a {display: none;margin:0 1em;}
     .topnav a:hover.active {opacity:.5;}
     .topnav a.icon {
     float: right;
-    display: block;
+    display: block
   }
 }
 
