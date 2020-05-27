@@ -67,7 +67,7 @@ a:hover {
 
 .liit {
     display:block;
-    margin:1em auto;
+    margin:6em auto;
     font-size:1em;
     width:100%;
 }
@@ -87,6 +87,7 @@ h1 {
 
 .mid {
     font-size:1.5em;
+    width:75%;
 }
 
 table {
@@ -97,6 +98,10 @@ td.contact {
     width:50%;
     vertical-align: top;
     text-align:center;
+}
+
+td.contact a {
+    font-size:1.5em;
 }
 
 table.aboot {
@@ -179,4 +184,44 @@ td.aboot2 {
     display: block;
     text-align: left;
   }
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-Bold.woff2') format('woff2'),
+        url('SpaceGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-Regular.woff2') format('woff2'),
+        url('SpaceGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-SemiBold.woff2') format('woff2'),
+        url('SpaceGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-Medium.woff2') format('woff2'),
+        url('SpaceGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-Light.woff2') format('woff2'),
+        url('SpaceGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
