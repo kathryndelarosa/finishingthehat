@@ -1,7 +1,7 @@
 body {
     background-color:#d2d2e6;
     color:#341b58;
-    font-family: 'Nib', serif;
+    font-family: 'Nib Pro', serif;
     font-size: 24px;
     line-height:1.4;
 }
@@ -9,8 +9,8 @@ body {
 a:link, a:active, a:visited {
     color:#000;
     text-decoration: none;
-    font-family:'Cormorant', serif;
-    border-bottom:.02em solid #000;
+    font-family:'GT America', sans-serif;
+    border-bottom:.1em solid #000;
 }
 
 a:hover {
@@ -19,6 +19,6 @@ a:hover {
 }
 
 #hoe {
-    margin:5% auto;
+    margin:5% 7%;
     font-size:2em;
 }
