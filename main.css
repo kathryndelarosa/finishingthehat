@@ -1,24 +1,39 @@
 body {
-    background-color:#d2d2e6;
-    color:#341b58;
+    background-color:#f0dcdc;
+    color:#441f2f;
     font-family: 'Nib Pro', serif;
     font-size: 24px;
-    line-height:1.4;
+    line-height:1.5;
 }
 
 a:link, a:active, a:visited {
-    color:#000;
+    color:#441f2f;
     text-decoration: none;
     font-family:'GT America', sans-serif;
-    border-bottom:.1em solid #000;
+    line-height:1;
+    font-weight:500;
 }
 
 a:hover {
-    color:#000;
-    border-bottom:none;
+    color:#fff;
+}
+
+a.yeller:link, a.yeller:active, a.yeller:visited {
+    color:#e1a912;
+    border-bottom:.125em solid #e1a912;
+}
+
+a.rose:link, a.rose:active, a.rose:visited {
+    color:#e1629a;
+    border-bottom:.125em solid #e1629a;
 }
 
 #hoe {
     margin:5% 7%;
-    font-size:2em;
+    font-size:1.75em;
+}
+
+#paj {
+    margin:5% 7%;
+    font-size:1em;
 }
