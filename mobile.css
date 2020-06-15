@@ -14,5 +14,11 @@ body {
     display:block;
     float:none;
     padding:0;
-    font-size:1.25em;
+}
+
+#centre {
+    width:100%;
+    display:block;
+    float:none;
+    padding:0;
 }

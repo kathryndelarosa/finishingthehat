@@ -48,7 +48,7 @@ td {
 
 td#moon {
     text-align:center;
-    font-size:3em;
+    font-size:2em;
 }
 
 td#map {
@@ -67,6 +67,11 @@ td#map {
     margin:5% 0;
 }
 
+#centre {
+    width:60%;
+    margin:10% auto;
+}
+
 #droite p {
     font-size:1.25em;
 }
@@ -77,11 +82,24 @@ h1 {
     font-weight:400;
 }
 
+#centre h1 {
+    text-align:center;
+    margin:1.5em 0 .5em;
+}
+
+#centre h2 {
+    font-family:'Public Sans', sans-serif;
+    font-size:1em;
+    margin:3em 0 1em;
+    font-weight:600;
+    text-align:center;
+}
+
 h2 {
     font-family:'Public Sans', sans-serif;
     font-size:.7em;
     margin:2em 0 .5em;
-    font-weight:500;
+    font-weight:600;
 }
 
 @font-face {
