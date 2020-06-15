@@ -1,6 +1,6 @@
 body {
-    background: rgb(245,179,156);
-    background: linear-gradient(180deg, rgba(245,179,156,1) 10%, rgba(234,204,90,1) 100%);
+   background: rgb(249,214,199);
+background: linear-gradient(225deg, rgba(249,214,199,1) 0%, rgba(194,134,242,1) 91%);
     color:#fff;
     font-family: 'Ehrhardt MT Std';
     font-weight:400;
@@ -11,11 +11,11 @@ body {
 a:link, a:active, a:visited {
     color:#fff;
     text-decoration: none;
-    border-bottom:.1em solid #F19451;
+    border-bottom:.1em solid #EE6FA4;
 }
 
 a.mercury:link, a.mercury:active, a.mercury:visited {
-    color:#E95D35;
+    color:#E85490;
 }
 
 a.mercury:hover {

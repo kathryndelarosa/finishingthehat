@@ -22,3 +22,24 @@ body {
     float:none;
     padding:0;
 }
+
+#tete {
+    font-size:.8em;
+    text-transform:uppercase;
+    margin:10% 0 20%;
+}
+
+td#nom {
+    display:none
+}
+
+td#moon {
+    text-align:left;
+    font-size:1.5em;
+    width:50%;
+}
+
+td#map {
+    text-align:right;
+    width:50%;
+}
