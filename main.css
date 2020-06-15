@@ -1,39 +1,104 @@
 body {
-    background-color:#f0dcdc;
-    color:#441f2f;
-    font-family: 'Nib Pro', serif;
+    background: rgb(255,227,215);
+background: linear-gradient(225deg, rgba(255,227,215,1) 0%, rgba(226,190,255,1) 91%);
+    color:#fff;
+    font-family: 'Ehrhardt MT Std';
+    font-weight:400;
     font-size: 24px;
     line-height:1.5;
 }
 
 a:link, a:active, a:visited {
-    color:#441f2f;
+    color:#fff;
     text-decoration: none;
-    font-family:'GT America', sans-serif;
-    line-height:1;
+    border-bottom:.1em solid #9abcd3;
+}
+
+a.mercury:link, a.mercury:active, a.mercury:visited {
+    color:#65AEDF;
+}
+
+a.mercury:hover {
+    border:none;
+}
+
+#container {
+    margin:5%;
+}
+
+#tete {
+    width:100%;
+    display:block;
+    font-size:1.2em;
+    font-weight:600;
+    font-family:'Public Sans';
+}
+
+#tete a {
+    border:none;
+}
+
+table {
+    width:100%;
+}
+
+td {
+    width:33%;
+}
+
+td#moon {
+    text-align:center;
+    font-size:3em;
+}
+
+td#map {
+    text-align:right;
+}
+
+#gauche {
+    width:40%;
+    float:left;
+    margin:5% 0;
+}
+
+#droite {
+    width:60%;
+    float:right;
+    margin:5% 0;
+}
+
+h1 {
+    font-size:2em;
+    line-height:1.2;
+    font-weight:400;
+}
+
+h2 {
+    font-family:'Public Sans', sans-serif;
+    font-size:.7em;
+    margin:2em 0 .5em;
     font-weight:500;
 }
 
-a:hover {
-    color:#fff;
+@font-face {
+    font-family: 'Ehrhardt MT Std';
+    src: url('EhrhardtMTStd-Italic.woff2') format('woff2'),
+        url('EhrhardtMTStd-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
-a.yeller:link, a.yeller:active, a.yeller:visited {
-    color:#e1a912;
-    border-bottom:.125em solid #e1a912;
+@font-face {
+    font-family: 'Ehrhardt MT Std';
+    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
+        url('EhrhardtMTStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-a.rose:link, a.rose:active, a.rose:visited {
-    color:#e1629a;
-    border-bottom:.125em solid #e1629a;
-}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 
-#hoe {
-    margin:5% 7%;
-    font-size:1.75em;
-}
-
-#paj {
-    margin:5% 7%;
-    font-size:1em;
-}
+img.mySlides {width:100%;}

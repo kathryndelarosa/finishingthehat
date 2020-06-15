@@ -19,14 +19,86 @@
     
 <body>
     
-    <div id="hoe">
-        <p>Hi! I’m Kathryn de la Rosa, a Kentuckian playwright and dramaturg. I was a 19/20 dramaturgy apprentice at <a href="https://www.actorstheatre.org/bios/kathryn-de-la-rosa/" class="yeller">Actors Theatre of Louisville</a>. Before that, I was the inaugural <a href="https://idsnews.com/staff/kathryn-de-la-rosa" class="rose">Indiana Daily Student</a> astrologer.</p>
-        <p>I write plays set in Kentucky, Indiana and the Philippines, with love and complication. I’m drawn to work that engages a diversity of place, race, and ideas, toward liberation from capital, colonialism and the state. I see regional theater as <em>the</em> place to claim queer, rural and immigrant histories—and locate our futures.</p>
-        <p></p>
+    <div id="container">
+        
+        <div id="tete">
+            <table>
+                <tr>
+                    <td><a href="">Kathryn de la Rosa</a></td>
+                    <td id="moon">☽</td>
+                    <td id="map"><a href="">Plays</a></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="gauche">
+            
+            <h2>Contact</h2>
+            <p>
+                Kathryn de la Rosa<br>
+                <a href="" target="_blank" class="mercury">delarosakathryn@gmail.com</a>
+            </p>
+            
+            <h2>Recently</h2>
+            <p>
+                <a href="" target="_blank">Podcast: <em>Borrowed Wisdom</em> for Actors Theatre</a><br>
+                <a href="" target="_blank"><em>Where the Mountain Meets the Sea</em></a><br>
+                <a href="" target="_blank"><em>Are You There?</em></a><br>
+                <a href="" target="_blank"><em>The Wolves</em></a><br>
+                <a href="" target="_blank"><em>Louisville // Kentucky // USA</em></a><br>
+                <a href="" target="_blank">The New Harmony Project 2019</a><br>
+                <a href="" target="_blank">Astrology column (Indiana Daily Student)</a>
+            </p>
+            
+            <h2>Experience</h2>
+            <p>
+                <a href="" target="_blank">Resume</a><br>
+                <a href="" target="_blank">CV</a><br>
+                <a href="" target="_blank">LinkedIn</a>
+            </p>
+            
+            <h2>Follow</h2>
+            <p>
+                <a href="" target="_blank">Twitter</a><br>
+                <a href="" target="_blank">Spotify</a><br>
+                <a href="" target="_blank">Instagram</a>
+            </p>
+            
+        </div>
+        
+        <div id="droite">
+            <h1>I am a Louisville-based playwright, dramaturg and freelance audio producer & digital creator.</h1>
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="/media/4_bonnets.jpg" style="width:100;">
+                <img class="mySlides" src="/media/5_mountain.jpg" style="width:100%">
+                <img class="mySlides" src="/media/3_wolves.jpg" style="width:100;">
+                <img class="mySlides" src="/media/1_coven.jpg" style="width:100%">
+                <img class="mySlides" src="/media/2_mountain.jpg" style="width:100;">
+            </div>  
+            
+            <h1>I write plays set in Kentucky, Indiana and the Philippines, with love and complication. I’m drawn to work that engages a diversity of place, race and ideas, toward liberation from liberation from capital, colonialism, and the state.</h1>
+            <p>I also produce podcasts and code websites from scratch.</p>
+        </div>
+        
     </div>
-    <div id="paj">
-    <a href="mailto:delarosakathryn@gmail.com">Email me at delarosakathryn@gmail.com</a>
-    </div>
+    
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>    
+            
 </body>
     
 </html>
