@@ -1,126 +1,128 @@
 body {
-   background: rgb(249,214,199);
-background: linear-gradient(225deg, rgba(249,214,199,1) 0%, rgba(194,134,242,1) 91%);
-    color:#fff;
-    font-family: 'Ehrhardt MT Std';
-    font-weight:400;
-    font-size: 24px;
+    background: #eee;
+    color:#333;
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
     line-height:1.5;
 }
 
 a:link, a:active, a:visited {
-    color:#fff;
+    color: #333;
     text-decoration: none;
-    border-bottom:.1em solid #EE6FA4;
+    padding: 0.1em;
+    margin: -0.1em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(transparent 0, rgba(215,251,190,1) 0);
+    background-position-y: .75em;
+    background-repeat: no-repeat;
+    transition: background-position .25s ease-in-out;
 }
 
-a.mercury:link, a.mercury:active, a.mercury:visited {
-    color:#E85490;
+a:hover {
+	background-position: 0;
 }
 
-a.mercury:hover {
-    border:none;
-}
-
-#container {
-    margin:5%;
-}
-
-#tete {
-    width:100%;
+#map {
     display:block;
-    font-size:1.2em;
-    font-weight:600;
-    font-family:'Public Sans';
+    font-size:.75em;
+    border-bottom:.05em solid #ddd;
+    padding:0 0 5%;
 }
 
-#tete a {
-    border:none;
+#map a {
+    padding:0;
+    margin:0;
+    box-decoration-break: none;
+    -webkit-box-decoration-break: none;
+    background-image: none;
 }
 
-table {
-    width:100%;
+#map a:hover {
+    padding: 0.1em;
+    margin: -0.1em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(transparent 0, rgba(215,251,190,1) 0);
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    transition: background-position .25s ease-in-out;
 }
 
-td {
-    width:33%;
-}
-
-td#moon {
-    text-align:center;
-    font-size:2em;
-}
-
-td#map {
+#pied {
+    display:block;
+    font-size:.9em;
     text-align:right;
+    margin:20% 0 0;
+    border-top:.05em solid #ddd;
+    padding:5% 0;
 }
 
-#gauche {
-    width:30%;
-    float:left;
-    margin:5% 0;
+#pied a {
+    margin:0 .5%;
 }
 
 #droite {
-    width:60%;
-    float:right;
-    margin:5% 0;
-}
-
-#centre {
-    width:60%;
-    margin:10% auto;
-}
-
-#droite p {
-    font-size:1.25em;
+    background-color:#fff;
+    padding:5%;
+    width:40%;
+    position:absolute;
+    top:0;
+    right:0;
+    height:100vh;
+    overflow: auto;
 }
 
 h1 {
-    font-size:2em;
-    line-height:1.2;
-    font-weight:400;
-}
-
-#centre h1 {
-    text-align:center;
-    margin:1.5em 0 .5em;
-}
-
-#centre h2 {
-    font-family:'Public Sans', sans-serif;
-    font-size:1em;
-    margin:3em 0 1em;
-    font-weight:600;
-    text-align:center;
+    font-size:2.5em;
+    font-weight:normal;
+    margin:2em 0;
 }
 
 h2 {
-    font-family:'Public Sans', sans-serif;
-    font-size:.7em;
-    margin:2em 0 .5em;
-    font-weight:600;
+    font-size:1.5em;
+    font-weight:normal;
+    line-height:1.2;
 }
 
-@font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Italic.woff2') format('woff2'),
-        url('EhrhardtMTStd-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+h3 {
+    font-size:.8em;
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    border-bottom:.05em solid #333;
+    display:inline-block;
+    margin:3em 0 1em;
 }
 
-@font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
-        url('EhrhardtMTStd-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+h4 {
+    font-size:.8em;
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    border-bottom:.05em solid #333;
+    display:inline-block;
+    margin:1.5em 0 .5em;
 }
 
-.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
-.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.wee {
+    font-size:.6em;
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+}
 
-img.mySlides {width:100%;}
+table {
+    border-bottom:.05em solid #ccc;
+    margin:20% 0;
+}
+
+td {
+    display:block;
+    border-top:.05em solid #ccc;
+    padding:5%;
+}
+
+td:hover {
+    background-color:#fafafa;
+}
