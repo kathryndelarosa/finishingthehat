@@ -44,3 +44,11 @@ a.yuge:link {
 .bb {
     font-size:.7em;
 }
+
+figure {
+    width:100%;
+}
+
+figcaption {
+    font-size:.8em;
+}
