@@ -21,6 +21,33 @@ a {
     ), auto !important;
 }
 
+@font-face {
+    font-family: 'Ehrhardt MT Std';
+    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
+        url('EhrhardtMTStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Light.woff2') format('woff2'),
+        url('UniversLTStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-LightObl.woff2') format('woff2'),
+        url('UniversLTStd-LightObl.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
 a:link, a:active, a:visited {
     color: #000;
     text-decoration: none;
