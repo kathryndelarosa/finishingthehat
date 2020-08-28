@@ -1,10 +1,21 @@
+@keyframes FadeIn {
+  from {
+    background-color: #ff0000;
+  }
+  
+  to {
+    background-color: #ffffff;
+  }
+}
+
 body {
-    background: #fff;
+    background-color: #fff;
+    animation: FadeIn 3s ease-in-out forwards;
     color:#000;
     font-family: 'Univers LT Std', sans-serif;
     font-size: 38px;
     font-weight:300;
-    line-height:1.15;
+    line-height:1.14;
     padding:1%;
     cursor: url(/rubywoo_30px.png) 30 30, auto;
     cursor: -webkit-image-set(
@@ -22,28 +33,10 @@ a {
 }
 
 @font-face {
-    font-family: 'Ehrhardt MT Std';
-    src: url('EhrhardtMTStd-Regular.woff2') format('woff2'),
-        url('EhrhardtMTStd-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Univers LT Std';
     src: url('UniversLTStd-Light.woff2') format('woff2'),
         url('UniversLTStd-Light.woff') format('woff');
     font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('UniversLTStd-XBlack.woff2') format('woff2'),
-        url('UniversLTStd-XBlack.woff') format('woff');
-    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -57,6 +50,34 @@ a {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('UniversLTStd-Black.woff2') format('woff2'),
+        url('UniversLTStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('TimesNow-SemiLightItalic.woff2') format('woff2'),
+        url('TimesNow-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('TimesNow-SemiLight.woff2') format('woff2'),
+        url('TimesNow-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 a:link, a:active, a:visited {
     color: #000;
     text-decoration: none;
@@ -68,13 +89,14 @@ a:hover {
 
 a.butt:link, a.butt:active, a.butt:visited {
     text-transform:uppercase;
-    font-size:.8em;
-    border:.05em solid #000;
+    font-size:.7em;
+    border:.09em solid #000;
     border-radius:2em;
     display:inline-block;
-    padding:.25em .5em 0 .5em;
+    padding:.25em .5em .1em;
     color:#000;
     text-decoration: none;
+    line-height:1;
 }
 
 a.butt:hover {
@@ -89,13 +111,12 @@ a.yuge:link, a.yuge:active, a.yuge:visited {
     text-decoration: none;
     font-weight:900;
     line-height:.9;
-    margin:..05em 0;
 }
 
 .serf {
-    font-family:'Ehrhardt MT Std', serif;
+    font-family:'Times Now', serif;
     font-size:1.1em;
-    line-height:.8em
+    line-height:1em;
 }
 
 .bb {
@@ -138,28 +159,40 @@ span#desknav {
 }
 
 h1 {
-    font-family:'Ehrhardt MT Std', serif;
-    font-size:1.1em;
+    font-family:'Times Now', serif;
+    font-size:2.5em;
+    line-height:1em;
+    font-weight:300;   
+    margin:.25em 0;
+}
+
+h2 {
+    font-family:'Times Now', serif;
+    font-size:1.25em;
     line-height:.8em;
-    font-weight:400;
     margin:1.5em 0 .5em;
+    font-weight:300;
 }
 
 .pettybouge {
-    font-family:'Ehrhardt MT Std', serif;
-    font-size:2em;
+    font-family:'Times Now', serif;
+    font-size:2.5em;
     line-height:1em;
 }
 
 .big {
-    font-size:1.8em;
+    font-size:2em;
     line-height:1em;
 }
 
 figure {
     text-align:center;
-    width:40%;
-    margin:auto;
+    width:45%;
+    margin:2em auto;
+}
+
+figure img {
+    width:100%;
 }
 
 figcaption {
@@ -167,6 +200,10 @@ figcaption {
     font-size:.5em;
 }
 
-img {
-    width:100%;
+img.symbol {
+    height:.7em;
+}
+
+img#wallpaperamIMage {
+    display:none;
 }
