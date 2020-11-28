@@ -1,15 +1,8 @@
 body {
     font-size:24px;
-    margin:3%;
+    padding:3%;
 }
 
-.tab {
-    width:100%;
-    display:block;
-    margin-bottom:3em;
-}
-
-.tabcontent {
-    width:100%;
-    display:block;
+h2 {
+    font-size:1em;
 }
