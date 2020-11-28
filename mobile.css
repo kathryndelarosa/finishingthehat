@@ -1,8 +1,17 @@
 body {
-    font-size:24px;
-    padding:3%;
+    font-size:18px;
 }
 
-h2 {
-    font-size:1em;
+#vessel {
+    padding:1%;
+}
+
+#bayan {
+    padding:1%;
+}
+
+td {
+    display:block;
+    width:100%;
+    padding:2% 0;
 }
