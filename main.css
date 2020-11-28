@@ -104,14 +104,14 @@ h2 {
     font-weight:700;
     font-size:1em;
     font-style:italic;
-    margin:4em 0 1em;
+    margin:4em 0 1.5em;
 }
 
 h3 {
     font-family:'IBM Plex Mono', monospace;
     font-weight:700;
     font-size:1em;
-    margin:2em 0 1.5em;
+    margin:2.5em 0 1.5em;
 }
 
 h4 {
@@ -124,13 +124,12 @@ h4 {
 }
 
 h5 {
+    font-family:'IBM Plex Mono', monospace;
     font-weight:400;
-    font-size:5em;
-    margin:0;
-    line-height:1.1;
-    background: -webkit-linear-gradient(bottom left, #2eb6c4, #721657);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:var(--gray-3);
+    font-size:.8em;
+    font-style:italic;
+    margin:-1.5em 0 1.5em;
 }
 
 .sub {
@@ -179,7 +178,7 @@ a.nav:hover {
     padding: 0.1em;
     text-decoration: none;
     font-family:'IBM Plex Mono', monospace;
-    font-weight:300;
+    font-weight:400;
     font-size:1.5em;
     color:var(--gray-4);
     display: block;
