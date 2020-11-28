@@ -1,3 +1,32 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url('/fonts/Larsseit-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Larsseit-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('/fonts/ACaslonPro-Regular.woff2') format('woff2'),
+        url('/fonts/ACaslonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('/fonts/ACaslonPro-Italic.woff2') format('woff2'),
+        url('/fonts/ACaslonPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
 :root {
     --hwhite:#ffffff;
     --gray-1:#444444;
@@ -60,13 +89,12 @@ a:hover {
 }
 
 #vessel {
-    padding:2% 24% 8%;
+    padding:2% 23% 8%;
 }
 
 #bayan {
     padding:3% 6%;
     height:100%;
-    font-size:18px;
 }
 
 td {
@@ -87,21 +115,22 @@ figcaption {
     color:var(--gray-2);
     font-size:.7em;
     text-transform:uppercase;
+    margin-bottom:1em;
 }
 
 h1 {
     font-family:'Larsseit';
     font-weight:700;
-    font-size:2.5em;
+    font-size:2.25em;
     font-style:italic;
     letter-spacing:.05em;
-    margin:1.5em 0 1em;
+    margin:2.25em 0 1em;
     line-height:1.2;
 }
 
 h2 {
     font-family:'IBM Plex Mono', monospace;
-    font-weight:700;
+    font-weight:600;
     font-size:1em;
     font-style:italic;
     margin:4em 0 1.5em;
@@ -109,7 +138,7 @@ h2 {
 
 h3 {
     font-family:'IBM Plex Mono', monospace;
-    font-weight:700;
+    font-weight:600;
     font-size:1em;
     margin:2.5em 0 1.5em;
 }
@@ -120,7 +149,7 @@ h4 {
     color:var(--gray-2);
     font-size:1em;
     text-transform:uppercase;
-    margin-top:-1.5em;
+    margin:-1.5em 0 2em;
 }
 
 h5 {
@@ -200,12 +229,17 @@ a.nav:hover {
   #openbtn {
       font-size:3em;
       font-family:'IBM Plex Mono', monospace;
-      font-weight:300;
+      font-weight:400;
       font-size:2em;
-      padding:1%;
+      padding:1% 2%;
       position:fixed;
       top:1%;
       left:1%;
+      color:var(--gray-2);
+  }
+
+  #openbtn:hover {
+      color:var(--gray-3);
   }
   
   @media screen and (max-height: 450px) {
