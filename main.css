@@ -1,7 +1,7 @@
 :root {
-    --bg:#fff;
-    --txt:#d75d2e;
-    --hov:#000;
+    --bg:#fffdd6;
+    --txt:#154734;
+    --hov:#000000;
   }
 
 body {
@@ -29,11 +29,12 @@ h1 {
     font-weight:500;
     font-size:6em;
     line-height:1;
+    margin:.25em 0;
 }
 
 h2 {
     font-weight:normal;
-    margin:.5em 0 1em;
+    margin:2em 0 1em;
     font-size:1.4em;
     font-family:'Inter', sans-serif;
 }
@@ -44,10 +45,14 @@ h3 {
     margin:0 0 1em;
 }
 
+img {
+    border:.2em solid var(--txt);
+}
+
 figure {
-    margin:3em auto;
+    margin:2em auto;
     text-align:center;
-    width:70%;
+    width:100%;
 }
 
 figure img {
@@ -87,29 +92,31 @@ a.nav:hover {
 }
 
 table#chez {
-    margin:0 13% 6%;
+    margin:0 10% 6%;
     display:inline-block;
     clear:both;
-    width:70%;
+    width:80%;
     text-align:center;
     border-collapse: collapse;
     font-weight:500;
     line-height: 1;
 }
 
+table#chez a {
+    border-bottom:none;
+}
+
 td.yuge {
     width:100%;
-    padding:2%;
+    padding:5%;
     margin:-.2em;
     border:.2em solid var(--txt);
     border-collapse: collapse;
 }
 
 td.yuge img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
     border-radius: 50%;
-    width:;
+    width:50%;
 }
 
 td.wee {
@@ -154,6 +161,7 @@ td.wee {
 
 table {
     width:100%;
+    border-bottom:none;
 }
 
 td.services {
@@ -163,7 +171,7 @@ td.services {
 }
 
 table.play {
-    margin:1em 0;
+    margin:2em 0;
 }
 
 td.cov {
@@ -179,11 +187,14 @@ td.desc {
 
 td.cov img {
     width:100%;
-    border:.2em solid var(--txt);
 }
 
 .deets {
     font-family:'IBM Plex Mono', monospace;
     font-size:.9em;
     font-style:italic;
+}
+
+#mob {
+    display:none;
 }
